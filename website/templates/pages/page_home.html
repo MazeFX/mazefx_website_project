@@ -1,0 +1,156 @@
+{% extends "pages/base_pages.html" %}
+{% load staticfiles %}
+{% block title %}
+    IT's my future!
+{% endblock %}
+
+{% block styles_plugins %}
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,italic|Vollkorn:700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href={% static 'css/style.css' %} />
+    <link rel="stylesheet" type="text/css" href={% static 'css/csshake-slow.min.css' %}/>
+{% endblock %}
+
+{% block scripts_plugins %}
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src={% static 'js/particles.js' %} defer></script>
+    <script src={% static 'js/app.js' %} defer></script>
+    <script type="text/javascript" src={% static 'js/modernizr.custom.28468.js' %} defer></script>
+
+{% endblock %}
+
+{% block header %}
+    {% include 'pages/page_header.html' %}
+{% endblock %}
+
+{% block content %}
+    <div class="parallax-viewport" id="parallax">
+
+            <!-- parallax layers -->
+            <div class="parallax-layer" style="width:550px; height:550px;">
+                <img src={% static 'images/parallax-layer1.png' %} alt="" />
+            </div>
+            <div class="parallax-layer" style="width:575px; height:575px;">
+                <img src={% static 'images/parallax-layer2.png' %} alt="" />
+            </div>
+            <div class="parallax-layer" style="width:700px; height:700px;">
+                <img src={% static 'images/parallax-layer3.png' %} alt="" />
+            </div>
+            <div class="parallax-layer" style="width:600px; height:600px;">
+                <img src={% static 'images/parallax-layer4.png' %} alt="" />
+            </div>
+            <div class="parallax-layer" style="width:550px; height:550px;">
+                <img src={% static 'images/parallax-mugshot.png' %} alt="" />
+            </div>
+        </div>
+    <div class="page-header">
+
+    </div>
+    <p>IT is booming business als groeiende branche en constante vernieuwingen op allerlei vlakken. Met uitdagingen in alle hoeken en een grote diversiteit aan systemen in zowel architectuur als schaal is er een steeds grotere vraag naar mensen met affiniteit in IT. Tijd voor mij om in te stappen bij de IT-Sneltrein!</p>
+    <h2 class="shake-slow">Welkom op de motivatie website van Nick Geense.</h2>
+    <p>Beste bezoeker, je bent hier aanbeland op een website die geen ander doel dient dan mijn carrière in de IT kracht bij te zetten. Dit ga ik doen door te laten zien dat ik affiniteit heb met IT, mede door mijn studie, maar ook door mijn hobby activiteiten.</p>
+    <p>De afgelopen 2,5 jaar ben ik steeds meer bezig met het programmeren van software op allerlei vlakken. Voor mijn werk heb ik kleinere applicatie moeten schrijven voor het automatiseren van veel voorkomende handelingen en ik heb een simpel systeem opgezet voor projectmanagement.</p>
+    <br/>
+
+		<h2 class="shake-slow">Ervaring programmeertalen.</h2>
+    <div id="da-slider" class="da-slider">
+        <div class="da-slide">
+            <h2>HTML</h2>
+            <p>1 jaar ervaring in HTML door middel van het ontwikkelen van websites in Wordpress en Django. Gaat uiteraard hand in hand met CSS.</p>
+            <div class="da-img"><img src={% static 'images/1.png' %} alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2>MySQL</h2>
+            <p>Als backend voor Django gebruikt en samen met SQLite in Python Kivy projecten mijn basis voor het gebruiken van database queries met SQL.</p>
+            <div class="da-img"><img src={% static 'images/2.png' %} alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2>Python</h2>
+            <p>2,5 jaar ervaring met Python door het maken van apps in Kivy framework en Django websites. Verdere ervaring met Python vanwege programmeren voor Raspberry Pi.</p>
+            <div class="da-img"><img src={% static 'images/3.png' %} alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2>CSS</h2>
+            <p>Vriendje van HTML en dus ook 1 jaar ervaring door middel het ontwikkelen van websites. Beperkte kennis van CSS framework Bootstrap, gebruik in combinatie met Django.</p>
+            <div class="da-img"><img src={% static 'images/4.png' %} alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2>Java</h2>
+            <p>Een tijdje terug een keer begonnen aan m'n eigen app voor android. Een spelletje waar ik af en toe wat aan programmeer.</p>
+            <div class="da-img"><img src={% static 'images/5.png' %} alt="" /></div>
+        </div>
+        <div class="da-slide">
+            <h2>PHP</h2>
+            <p>Als je dit leest dan heeft deze slider meer effect dan gemiddelt. Normaal is de aandacht alweer verschoven zodra de 2de slide is geweest. Uit onderzoek is gebleken dat sliders weinig toevoegen en nadelig zijn voor SEO. </p>
+            <div class="da-img"><img src={% static 'images/6.png' %} alt="" /></div>
+        </div>
+        <nav class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>
+        </nav>
+    </div>
+        <h3 class="shake-slow">Going the extra mile</h3>
+    <p>Ik wil niet zomaar in de IT werken, nee ik wil professioneel kunnen werken in de IT. Ik wil ervaring op doen met werken in teamverband door middel van Scrum en Agile. In mijn eentje voel me beperkt in de vooruitgang en twijfel soms over implementaties van code door het gebrek aan feedback. Ik heb deze website gemaakt om aan te geven dat ik het kan en omdat ik het nodig acht om mij te onderscheiden van de rest.</p>
+    <p>Deze website is gemaakt in Django omdat het verder gaat dan een wysiwig editor waar je tekst en plaatjes op knalt. Ik wilde mijzelf uitdagen door niet voor de makkelijke oplossing te kiezen. Ik wil begrijpen hoe het werkt, wat je er mee kan. En wie weet waar ik deze website nog voor ga gebruiken in de toekomst.</p>
+
+
+    <br/>
+
+    <h3 class="shake-slow">IT´s the future</h3>
+    <p>Bent u een recruiter en denkt u te werken bij het bedrijf waar mijn carrière een vlucht kan dan nemen dan hoor ik graag van u. Anders geniet nog een beetje van de Eyecandy of laat een berichtje achter via je favoriete link.</p>
+
+
+{% endblock %}
+
+{% block footer%}
+    <footer class="footer">
+        <div class="container">
+            <div class="row vertical-center">
+                <div class="col-lg-4">
+                    <p class="text-muted">Links</p>
+                    <ul ><a href="github">Github repository</a></ul>
+                    <ul ><a href="mailto:nickgeense@gmail.com">Email</a></ul>
+                    <ul ><a href="http://nl.linkedin.com/in/thomasgeense">Linked In</a></ul>
+                </div>
+                <div class="col-lg-1">
+                    <div class="footer-logo"><img src={% static 'images/github-logo.png' %} alt="" /></div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="footer-logo"><img src={% static 'images/django-logo.png' %} alt="" /></div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="footer-logo"><img src={% static 'images/12-factor.png' %} alt="" /></div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="footer-logo"><img src={% static 'images/bootstrap-logo.png' %} alt="" /></div>
+                </div>
+                <div class="col-lg-1">
+                </div>
+            </div>
+
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src={% static 'js/jquery.cslider.js' %} defer></script>
+    <script type="text/javascript" src={% static 'js/jquery.event.frame.js' %} defer></script>
+    <script type="text/javascript" src={% static 'js/jquery.parallax.min.js' %} defer></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $('#da-slider').cslider({
+                autoplay	: true,
+                bgincrement	: 450
+            });
+
+        });
+        jQuery(document).ready(function(){
+            jQuery('#parallax .parallax-layer')
+            .parallax({
+              mouseport: jQuery('#parallax')
+            });
+        });
+    </script>
+
+{% endblock %}
