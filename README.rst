@@ -1,6 +1,8 @@
 website
 =======
 
+Trying to track the commits from Git.
+
 Website portfolio of MazeFX
 
 LICENSE: MIT
