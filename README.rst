@@ -1,5 +1,5 @@
 website
-==============================
+=======
 
 Website portfolio of MazeFX
 
@@ -7,7 +7,7 @@ LICENSE: MIT
 
 
 Settings
-------------
+--------
 
 
 
@@ -35,7 +35,7 @@ To run the tests, check your test coverage, and generate an HTML coverage report
     $ open htmlcov/index.html
 
 Running tests with py.test
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
