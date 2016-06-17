@@ -1,0 +1,186 @@
+/*Fonts*/
+@font-face {
+ font-family: 'ethnocentric';
+ src: url("../fonts/ethnocentric rg.843e6c09e8e8.ttf");
+ font-weight: normal;
+ font-style: normal;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  background-color: #333;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+.footer-logo img{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+header {
+    height: 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Vollkorn', Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+
+    text-shadow: 2px 2px 0 rgb(255, 255, 255), 4px 4px 0 rgb(112,112,112);
+}
+
+p {
+    font-size: 1.6em;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.2em;
+}
+
+ul {
+    list-style-type: disc;
+    color: #777;
+}
+
+
+.header-title {
+    display: inline-block;
+    font-size: 70px;
+    line-height: 70px;
+    margin-top: 0;
+    font-family: 'ethnocentric', cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -35%);
+    -moz-transform: translate(-50%, -35%);
+    -ms-transform: translate(-50%, -35%);
+    -o-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
+}
+
+.cool{
+    font-size: 130px;
+    line-height: 130px;
+    font-family: 'ethnocentric', Helvetica, sans-serif;
+    -webkit-text-stroke: 2px #fff473;
+    color: #111646;
+    display: inline-block;
+}
+
+.retro {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  color: #F44336;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+    display: inline-block;
+
+    -webkit-text-stroke:  1px #ffffff;
+  text-shadow: 4px 4px 0 rgb(0, 0, 0), 6px 6px 0 #0D47A1;
+}
+
+    .parallax-viewport {
+
+    }
+
+    .diagram {
+      margin-top: -0.75em;
+    }
+
+	  small {
+	    text-transform: uppercase;
+	  }
+
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+    float: right;
+    width: 100%;
+    max-width: 40em;
+    right: -5em;
+    top: -3em;
+    height: 40em;
+    border-radius: 50%;
+    border: 5px solid #333;
+    z-index: 10;
+}
+
+.parallax-layer {
+    position: absolute;
+}
+
+/* ---- particles.js container ---- */
+#particles-js{
+    position:absolute;
+    width: 100%;
+    height: 250px;
+    background-color: #222;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img,
+.align-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
