@@ -28,16 +28,14 @@
 
 {% block page %}
 
-    <body>
-        {% block header %}{% endblock %}
+    {% block header %}{% endblock %}
 
-        <div class="container">
-            {% block content %}{% endblock %}
-        </div>
-        {% block footer %}
-            <hr>
-            <p>Thanks for visiting my site.</p>
-        {% endblock %}
-    </body>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% block footer %}
+        <hr>
+        <p>Thanks for visiting my site.</p>
+    {% endblock %}
 
 {% endblock %}
