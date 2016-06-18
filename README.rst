@@ -22,7 +22,8 @@ Test coverage
 -------------
 
 No test provided yet. Still under construction.
-:: TODO - Write description for tests.
+
+.. TODO - Write description for tests.
 
 
 To run the tests, check your test coverage, and generate an HTML coverage report::
@@ -39,6 +40,7 @@ Deployment
 
 No deployment settings provided as of yet as of yet.
 will write a section for deployment instructions and settings for global deployment and for deployment on *pythonanywhere.com*.
+
 .. TODO - Collect and Write deployment instructions.
 
 License and disclaimer
