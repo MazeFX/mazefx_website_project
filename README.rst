@@ -22,7 +22,7 @@ Test coverage
 -------------
 
 No test provided yet. Still under construction.
-TODO - Write description for tests.
+:: TODO - Write description for tests.
 
 
 To run the tests, check your test coverage, and generate an HTML coverage report::
@@ -56,10 +56,10 @@ TODO - Add license.txt file to project
 Footnote
 --------
 
-|**I want to be a developer!**
+| **I want to be a developer!**
 |
-|Got a job? Like what you see?
-|Send me a message, I would love to hear your proposition.
+| Got a job? Like what you see?
+| Send me a message, I would love to hear your proposition.
 
 Enjoy your stay on my repository and happy codings!!
 
