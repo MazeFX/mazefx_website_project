@@ -12,7 +12,7 @@
     <link href={% static 'fonts/ethnocentric_rg.ttf' %} rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href={% static 'css/style.css' %} />
-    <link rel="stylesheet" type="text/css" href={% static 'css/csshake-slow.min.css' %}/>
+    <link rel="stylesheet" type="text/css" href={% static 'css/csshake-slow.min.css' %} />
 {% endblock %}
 
 {% block scripts_plugins %}
@@ -137,7 +137,7 @@
     </footer>
 
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src={% static 'js/jquery.min.js' %} defer></script>
     <script type="text/javascript" src={% static 'js/jquery.cslider.js' %} defer></script>
     <script type="text/javascript" src={% static 'js/jquery.event.frame.js' %} defer></script>
     <script type="text/javascript" src={% static 'js/jquery.parallax.min.js' %} defer></script>
