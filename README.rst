@@ -13,6 +13,7 @@ Settings
 Settings for django project is broken down into 3 files under */website/config/settings/*.
 
 (Based on standard setup from cookiecutter-django template, noted here are the changed settings)
+
 * Base
 * Local
 * Production
@@ -55,9 +56,10 @@ TODO - Add license.txt file to project
 Footnote
 --------
 
-**I want to be a developer!**
-Got a job? Like what you see?
-Send me a message, I would love to hear your proposition.
+|**I want to be a developer!**
+|
+|Got a job? Like what you see?
+|Send me a message, I would love to hear your proposition.
 
 Enjoy your stay on my repository and happy codings!!
 

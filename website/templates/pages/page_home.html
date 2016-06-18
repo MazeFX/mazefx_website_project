@@ -1,3 +1,6 @@
+<!--This is a comment. Comments are not displayed in the browser-->
+
+
 {% extends "pages/base_pages.html" %}
 {% load staticfiles %}
 {% block title %}
@@ -6,8 +9,7 @@
 
 {% block styles_plugins %}
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,italic|Vollkorn:700,700italic' rel='stylesheet' type='text/css'>
-    <link href={% static 'fonts/ethnocentric rg.ttf' %} rel='stylesheet' type='text/css'>
-}
+    <link href={% static 'fonts/ethnocentric_rg.ttf' %} rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href={% static 'css/style.css' %} />
     <link rel="stylesheet" type="text/css" href={% static 'css/csshake-slow.min.css' %}/>
@@ -127,7 +129,7 @@
                 <div class="col-lg-1">
                     <div class="footer-logo"><img src={% static 'images/bootstrap-logo.png' %} alt="" /></div>
                 </div>
-                <div class="col-lg-1">
+                <div class="col-lg-4">
                 </div>
             </div>
 
@@ -139,21 +141,8 @@
     <script type="text/javascript" src={% static 'js/jquery.cslider.js' %} defer></script>
     <script type="text/javascript" src={% static 'js/jquery.event.frame.js' %} defer></script>
     <script type="text/javascript" src={% static 'js/jquery.parallax.min.js' %} defer></script>
-    <script type="text/javascript">
-        $(function() {
+    <script type="text/javascript" src={% static 'js/initiate.js' %} defer>
 
-            $('#da-slider').cslider({
-                autoplay	: true,
-                bgincrement	: 450
-            });
-
-        });
-        jQuery(document).ready(function(){
-            jQuery('#parallax .parallax-layer')
-            .parallax({
-              mouseport: jQuery('#parallax')
-            });
-        });
     </script>
 
 {% endblock %}
