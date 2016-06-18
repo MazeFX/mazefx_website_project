@@ -39,7 +39,7 @@ Deployment
 
 No deployment settings provided as of yet as of yet.
 will write a section for deployment instructions and settings for global deployment and for deployment on *pythonanywhere.com*.
-TODO - Collect and Write deployment instructions.
+.. TODO - Collect and Write deployment instructions.
 
 License and disclaimer
 ----------------------
@@ -51,7 +51,7 @@ This software is released with a buildup of the following licenses:
 Current license: 
   MIT License Copyright (c) 2016 MazeFX Solutions
   
-TODO - Add license.txt file to project
+.. TODO - Add license.txt file to project
 
 Footnote
 --------
@@ -60,6 +60,7 @@ Footnote
 |
 | Got a job? Like what you see?
 | Send me a message, I would love to hear your proposition.
+
 
 Enjoy your stay on my repository and happy codings!!
 
