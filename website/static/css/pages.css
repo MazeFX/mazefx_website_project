@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('../fonts/ethnocentric_rg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ethnocentric_rg.ttf')  format('truetype');
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
