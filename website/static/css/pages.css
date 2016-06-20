@@ -1,6 +1,27 @@
+/*
+Project: mazefx_website_project
+Webapp: pages
+Author: MazeFX
+Author URI: http://mazefx.pythonanywhere.com/
+Description: CSS for my one page website.
+
+Version: 1.0 Beta
+*/
+
+/* TODO - Basic cleanup */
+/* TODO - Create logical code order */
+/* TODO - Create media queries for mobile?? */
+
 @font-face {
     font-family: 'ethnocentric';
-    src: url('../fonts/ethnocentric_rg.ttf')  format('truetype');
+    src: url('../fonts/ethnocentric_rg-webfont.eot');
+    src: url('../fonts/ethnocentric_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ethnocentric_rg-webfont.woff2') format('woff2'),
+         url('../fonts/ethnocentric_rg-webfont.woff') format('woff'),
+         url('../fonts/ethnocentric_rg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* Sticky footer styles
