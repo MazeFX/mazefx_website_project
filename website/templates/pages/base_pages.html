@@ -1,6 +1,18 @@
 {% extends "base.html" %}
 {% load staticfiles %}
-<!DOCTYPE html>
+
+{% block meta %}
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'images/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+
+    <!-- OGP proprties for LinkedIn -->
+    <meta property="og:title" content="IT's my future!"/>
+    <meta property="og:image" content="{% static 'images/ogp_image.png' %}" />
+    <meta property="og:description" content="Mijn pagina voor een baan in de IT."/>
+    <meta property="og:url" content="//mazefx.pythonanywhere.com" />
+{% endblock %}
 
 {% block styles %}
 
