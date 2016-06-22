@@ -1,3 +1,29 @@
+/*
+Project: mazefx_website_project
+Webapp: pages
+Author: MazeFX
+Author URI: http://mazefx.pythonanywhere.com/
+Description: CSS for my one page website.
+
+Version: 1.0 Beta
+*/
+
+/* TODO - Basic cleanup */
+/* TODO - Create logical code order */
+/* TODO - Create media queries for mobile?? */
+
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('../fonts/ethnocentric_rg-webfont.eot');
+    src: url('../fonts/ethnocentric_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ethnocentric_rg-webfont.woff2') format('woff2'),
+         url('../fonts/ethnocentric_rg-webfont.woff') format('woff'),
+         url('../fonts/ethnocentric_rg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -6,15 +32,16 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 150px;
+  margin-bottom: 180px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 150px;
-  background-color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 150px;
+    background-color: #333;
 }
 
 .footer-logo {
@@ -111,8 +138,8 @@ ul {
   letter-spacing: 10px;
     display: inline-block;
 
-    -webkit-text-stroke:  1px #ffffff;
-  text-shadow: 4px 4px 0 rgb(0, 0, 0), 6px 6px 0 #0D47A1;
+    -webkit-text-stroke:  1px #000000;
+  text-shadow: 4px 4px 0 rgb(255, 255, 255), 6px 6px 0 #0D47A1;
 }
 
     .parallax-viewport {
@@ -150,7 +177,7 @@ ul {
     position:absolute;
     width: 100%;
     height: 250px;
-    background-color: #222;
+    background-color: #ffffff;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
