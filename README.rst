@@ -4,6 +4,8 @@ Portfolio website
 Website portfolio of MazeFX for kickstarting my carreer as a developer.
 Took some shortcuts to get a simple one page website running.
 
+The website is still under construction with regular updates.
+
 Is going to be part of a more comprehensive website structure with more of a General blog website combined with a portfolio.
 Will be a attempt to create my own cookiecutter template based on cookiecutter-django but with MySQL database for deployment on a free *pythonanywhere.com* account.
 
@@ -23,17 +25,9 @@ Test coverage
 
 No test provided yet. Still under construction.
 
-.. TODO - Write description for tests.
+Still reading Test Driven Development with Python by Harry Percival.
 
 
-To run the tests, check your test coverage, and generate an HTML coverage report::
-
-    $ coverage run manage.py test
-    $ coverage html
-    $ open htmlcov/index.html
-
-Running tests with py.test
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Deployment
 ----------
