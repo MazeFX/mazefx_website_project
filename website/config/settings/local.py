@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+# GIFS - Clean up the file
+# DOCS - Write some documentation
+
 """
 Local settings
 

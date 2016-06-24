@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# GIFS - Clean up the file
+# DOCS - Write some documentation
+
 """website URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
