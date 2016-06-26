@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# GIFS - Clean up the file
+# DOCS - Write some documentation
+
 # Wheel 0.25+ needed to install certain packages on CPython 3.5+
 # like Pillow and psycopg2
 # See http://bitly.com/wheel-building-fails-CPython-35
