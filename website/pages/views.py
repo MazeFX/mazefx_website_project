@@ -1,4 +1,9 @@
-from django.conf import settings
+# -*- coding: utf-8 -*-
+
+# GIFS - Clean up the file
+# DOCS - Write some documentation
+
+
 from django.shortcuts import render_to_response
 from .tools import get_page_filler
 

@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+# GIFS - Clean up the file
+# DOCS - Write some documentation
+
 """pages URL Configuration
 
 ** urls.py is included in config/urls.py **
