@@ -18,6 +18,8 @@ Description of the different task tags used in this project.
 Goal list.
 ----------
 
+* TODO - Build functional tests and unit test according to TDD; Obey the Testing Goat!! Beehhh
+
 * TODO - add new task structure to all files when necessary
 
 * TODO - Build the docs with sphinx
